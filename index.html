@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kay Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Add event listener to button
+document.querySelector('button').addEventListener('click', () => {
+    alert('Button clicked!');
+});
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" style="background-color: burlywood;">
+            <h1>Welcome to our website!</h1>
+            <p>A team based at LSE leads the research on South Sudan. In South Sudan we work with the Bridge Network – a group of South Sudanese early career researchers. We are also working with an expert panel made up of established South Sudanese academics and thought-leaders at universities in South Sudan and beyond. Additionally, the South Sudan Team were able to offer small grants to researchers to carry out further research on what works to prevent conflict in South Sudan.</p>
+            <button>Learn More</button>
+        </section>
+        <section id="about" style="background-color: cadetblue;">
+            <h2>About Us</h2>
+            <p>We are a team of developers who are passionate about creating beautiful and functional websites.</p>
+            <img src="R.jpg" alt="Team Photo">
+        </section>
+        <section id="contact" style="background-color: bisque;">
+            <h2>Get in Touch</h2>
+            <p>Feel free to reach out to us with any questions or feedback.</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+            <video src="MINIONS_-_HAPPY_BIRTHDAY_-_N'SYNC(360p).mp4" controls="loop"></video><br>
+            <audio src="Camila.mp3" controls="loop"></audio>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 kay Web Page</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
